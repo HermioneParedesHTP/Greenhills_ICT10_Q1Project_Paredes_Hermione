@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.2.2/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.2.2/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SKU Generator</title>
+</head>
+
+<body>
+
+    <h1>SKU Generator</h1>
+    <p>Enter any product below to generate its SKU:</p>
+    <p>Product Category</p>
+    <input id="category">
+
+    <p>Product Name</p>
+    <input id="product">
+
+    <p>Stock Quantity</p>
+    <input id="quantity" type="number">
+
+    <br><br>
+
+    <button py-click="generate">Generate SKU</button>
+
+    <h2>Your SKU:</h2>
+    <p id="sku">---</p>
+    <py-script src="main.py"></py-script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+
+#sku {
+    font-size: 25px;
+    color: darkblue;
+}
+
