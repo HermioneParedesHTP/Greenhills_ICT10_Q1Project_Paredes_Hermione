@@ -2,9 +2,9 @@ from pyscript import document
 
 def generate(e):
 
-    category = document.querySelector("#category").value
-    product = document.querySelector("#product").value
-    quantity = document.querySelector("#quantity").value
+    category = document.getElementById("#category").value
+    product = document.getElementById("#product").value
+    quantity = document.getElementById("#quantity").value
 
     category = category.strip().upper()
     product = product.strip().upper()
