@@ -11,6 +11,6 @@ def generate(e):
 
     sku = category[:3] + product[:3] + quantity
 
-    document.getElementById("#sku").innerText = sku
+    document.getElementById("sku").innerText = sku
 
     #PLEASE HELP ME
