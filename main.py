@@ -1,6 +1,6 @@
 from pyscript import document
 
-def generate(event):
+def generate(e):
 
     category = document.querySelector("#category").value
     product = document.querySelector("#product").value
